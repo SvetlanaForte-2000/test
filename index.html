@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css" />
+      </head>
+      <body>
+        <header
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.header.partial.html"
+        ></header>
+        <main>
+          <section
+            data-hx-trigger="load"
+            data-hx-swap="outerHTML"
+            data-hx-get="index.about.partial.html"
+          ></section>
+        </main>
+        <footer
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="index.footer.partial.html"
+        ></footer>
+      </body>
+    </html>
+  </head>
+</html>
